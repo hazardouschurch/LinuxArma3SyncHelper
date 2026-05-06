@@ -58,7 +58,7 @@ Edit the variables at the top of `arma3sync.sh`:
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `ARMA3SYNC_DIR` | ArmA3Sync installation folder | `/home/church/Arma/ArmA3Sync` |
+| `ARMA3SYNC_DIR` | ArmA3Sync installation folder | `/home/hazardouschurch/Arma/ArmA3Sync` |
 | `JAR_FILE` | ArmA3Sync JAR filename | `ArmA3Sync.jar` |
 | `STEAM_APP_ID` | Steam App ID for Arma 3 | `107410` |
 
@@ -110,4 +110,16 @@ Edit the variables at the top of `arma3sync.sh`:
 
 #  Looking for a Unit
   -We are open and welcoming of all players at ARCOMM
-# 
+  -ARCOMM is a unit started in 2016
+  -Operations are on Saturdays
+  -We are a little less strict than what the application makes on The website hasn't been updated in a bit 
+https://discord.com/invite/7ehwg7F
+
+#   Need the Arma3Helper Script
+  -Follow the guide here 
+  -https://9lo.re/project/armaonlinux/
+#   Need the OpenTrack
+  -https://github.com/opentrack/opentrack/releases
+  -All I did was get the portable installation, extract it, and put the entire folder inside of my ARMA3.EXE location. 
+#   Want to get your own ArmA3Sync jars
+How I got mine was getting a docker instance of Windows and extracting a fresh ArmA3Sync installer there. I copied the entire folder to get the jars.You could do this on a regular version of Windows and you can delete a lot of it except for what I have present in the GitHub.
