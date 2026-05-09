@@ -112,7 +112,6 @@ Edit the variables at the top of `arma3sync.sh`:
   -We are open and welcoming of all players at ARCOMM
   -ARCOMM is a unit started in 2016
   -Operations are on Saturdays
-  -We are a little less strict than what the application makes on The website hasn't been updated in a bit 
 https://discord.com/invite/7ehwg7F
 
 #   Need the Arma3Helper Script
@@ -120,6 +119,7 @@ https://discord.com/invite/7ehwg7F
   -https://9lo.re/project/armaonlinux/
 #   Need the OpenTrack
   -https://github.com/opentrack/opentrack/releases
-  -All I did was get the portable installation, extract it, and put the entire folder inside of my ARMA3.EXE location. 
+  -All I did was get the portable installation, extract it, and put the entire folder inside of my ARMA3.EXE location.
+  -For open track I had to add these three additional dll into the portable holder because I believe the installation is broken. Its in the optional folder
 #   Want to get your own ArmA3Sync jars
-How I got mine was getting a docker instance of Windows and extracting a fresh ArmA3Sync installer there. I copied the entire folder to get the jars.You could do this on a regular version of Windows and you can delete a lot of it except for what I have present in the GitHub.
+How I got mine was getting a docker instance of Windows and extracting a fresh ArmA3Sync installer there. I copied the entire folder to get the jars.You could do this on a regular version of Windows and you can delete a lot of it except for what I have present in the GitHub. I also copied my dlls for opentrack from there.
